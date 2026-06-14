@@ -1,5 +1,14 @@
 ## 🚀 How to Run the Project
 
+### 🔧 Installation
+
+Run the following command in your activated virtual environment to install all required dependencies:
+
+```bash
+pip install torch Flask diffusers transformers accelerate facenet-pytorch controlnet-aux Pillow
+
+##RUNNING PROJECT
+
 Follow these steps to set up the environment and run the AI Studio locally on your Windows machine.
 
 ### 1. Open Terminal and Navigate to the Project Folder
