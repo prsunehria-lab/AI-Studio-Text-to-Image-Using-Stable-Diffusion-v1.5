@@ -1,12 +1,5 @@
 ## 🚀 How to Run the Project
 
-### 🔧 Installation
-
-Run the following command in your activated virtual environment to install all required dependencies:
-
-```bash
-pip install torch Flask diffusers transformers accelerate facenet-pytorch controlnet-aux Pillow
-
 ##RUNNING PROJECT
 
 Follow these steps to set up the environment and run the AI Studio locally on your Windows machine.
@@ -44,20 +37,29 @@ venv312\Scripts\activate
 
 ### 4. Install Required Dependencies
 
-Before running the app for the first time, you must install all the necessary AI libraries (PyTorch, Diffusers, Flask, etc.):
+### 🔧 Installation(ONLY ONCE)
 
-```cmd
-pip install -r requirements.txt
+Run the following command in your activated virtual environment to install all required dependencies: (ONLY FIRST TIME DEPLOYING USE) 
 
-```
+```bash
+pip install torch Flask diffusers transformers accelerate facenet-pytorch controlnet-aux Pillow
+
 
 ### 5. Launch the AI Studio
 
 Once the installation is complete, start the Flask server:
 
 ```cmd
-python app6.py
+python aistudio.py
 
 ```
 
 After the engine initializes, the terminal will provide a local IP address (usually `[http://127.0.0.1:5000](http://127.0.0.1:5000)`). `Ctrl + Click` that link to open the AI Studio in your web browser!
+
+###6. To Close
+
+To close Project Safely
+1. Open Running CMD
+2. click  Ctrl+C  <-it will stop the server and would show  (venv312) D:\proj>
+3. type exit() + enter 
+
