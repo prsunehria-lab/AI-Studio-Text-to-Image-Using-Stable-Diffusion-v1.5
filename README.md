@@ -7,14 +7,15 @@ An ultra-optimized, local AI image generation studio powered by NVIDIA CUDA, Pyt
 
 ## ✨ Key Features
 
-*   **Multi-Mode Rendering Engine:** Seamlessly switch between Text-to-Image (Txt2Img), Image-to-Image (Img2Img), and ControlNet architectures.
-*   **Interactive Inpainting Canvas:** A custom HTML5 drawing viewport that maps binary alpha masks directly into the Diffusers pipeline for seamless object insertion and localized generation fixes.
-*   **Dual ControlNet Pipelines:** Integrated support for **OpenPose** skeleton extraction and **ioclab Recolor** for advanced colorization mechanics.
-*   **Automated Face Refiner (ADetailer Alternative):** Uses a local `MTCNN` face scanner to dynamically detect, crop, upsample, and re-blend facial features during the final generation stage to completely eradicate anatomical artifacts.
-*   **100% Air-Gapped / Offline Native:** Local model caching logic (`local_files_only=True`) and hard-saved client scripts ensure the studio remains completely operational without an internet connection.
-*   **VRAM Protection Layer:** Integrated UNet channel optimization, sliced/tiled VAE decoding, and shared pipeline memory configurations to eliminate Out-Of-Memory (OOM) errors.
+*   Multi-Mode Rendering Engine: Seamlessly switch between Text-to-Image (Txt2Img), Image-to-Image (Img2Img), and ControlNet architectures.
+*   Interactive Inpainting Canvas: A custom HTML5 drawing viewport that maps binary alpha masks directly into the Diffusers pipeline for seamless object insertion and localized generation fixes.
+*   Dual ControlNet Pipelines: Integrated support for **OpenPose** skeleton extraction and **ioclab Recolor** for advanced colorization mechanics.
+*   Automated Face Refiner (ADetailer Alternative): Uses a local `MTCNN` face scanner to dynamically detect, crop, upsample, and re-blend facial features during the final generation stage to completely eradicate anatomical artifacts.
+*   100% Air-Gapped / Offline Native: Local model caching logic (`local_files_only=True`) and hard-saved client scripts ensure the studio remains completely operational without an internet connection.
+*   VRAM Protection Layer: Integrated UNet channel optimization, sliced/tiled VAE decoding, and shared pipeline memory configurations to eliminate Out-Of-Memory (OOM) errors.
+*   Max Observed GPU VRAM Consuption:  5.6 GB VRAM
+*   Python 3.12 (recommended) : long Support and Stable
 
-##Warning 
-Python Version 3.12 (Recommended)
+##Warning
 
 I am Not responsible for What content you Generate or Modify. But i give you full Access and Permission to Do what ever you want and modify this project
