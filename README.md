@@ -3,7 +3,7 @@ A lightweight, fully offline Stable Diffusion v1.5 Web UI optimized for low-VRAM
 
 # AI Studio Generator (Vision X Engine)
 
-An ultra-optimized, local AI image generation studio powered by NVIDIA CUDA, Python, and Flask. This project provides a streamlined, single-file web interface designed to run advanced diffusion workflows entirely offline, with aggressive VRAM management tailored for mid-range hardware <=6GB Vram (like the NVIDIA RTX 4050 (Recommended)).
+An ultra-optimized, local AI image generation studio powered by NVIDIA CUDA, Python, and Flask. This project provides a streamlined, single-file web interface designed to run advanced diffusion workflows entirely offline, with aggressive VRAM management tailored for mid-range hardware <=6GB VRAM (like the NVIDIA RTX 4050 (Recommended)).
 
 ## ✨ Key Features
 
