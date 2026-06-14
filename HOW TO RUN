@@ -55,6 +55,8 @@ python aistudio.py
 ```
 
 After the engine initializes, the terminal will provide a local IP address (usually `[http://127.0.0.1:5000](http://127.0.0.1:5000)`). `Ctrl + Click` that link to open the AI Studio in your web browser!
+#open your browser(Edge, Chrome, any) in top search bar enter 127.0.0.1:5000 
+
 
 ###6. To Close
 
