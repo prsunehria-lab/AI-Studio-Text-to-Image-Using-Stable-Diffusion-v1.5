@@ -16,4 +16,5 @@ An ultra-optimized, local AI image generation studio powered by NVIDIA CUDA, Pyt
 
 ##Warning 
 Python Version 3.12 (Recommended)
+
 I am Not responsible for What content you Generate or Modify. But i give you full Access and Permission to Do what ever you want and modify this project
