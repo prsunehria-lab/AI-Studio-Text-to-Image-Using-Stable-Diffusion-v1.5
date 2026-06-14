@@ -1,0 +1,54 @@
+## 🚀 How to Run the Project
+
+Follow these steps to set up the environment and run the AI Studio locally on your Windows machine.
+
+### 1. Open Terminal and Navigate to the Project Folder
+
+Open Command Prompt or PowerShell and navigate to the directory where you extracted the project:
+
+```cmd
+cd /d D:\proj
+
+```
+
+*(Note: If you saved the project in a different location, replace `D:\proj` with your actual folder path).*
+
+### 2. Create a Virtual Environment
+
+It is highly recommended to use a virtual environment to keep the project's dependencies isolated. Create a new environment specifically for Python 3.12:
+
+```cmd
+py -3.12 -m venv venv312
+
+```
+
+### 3. Activate the Virtual Environment
+
+Turn on the virtual environment before installing packages or running the app:
+
+```cmd
+venv312\Scripts\activate
+
+```
+
+*You will know this worked when your command line prompt starts with `(venv312)`.*
+
+### 4. Install Required Dependencies
+
+Before running the app for the first time, you must install all the necessary AI libraries (PyTorch, Diffusers, Flask, etc.):
+
+```cmd
+pip install -r requirements.txt
+
+```
+
+### 5. Launch the AI Studio
+
+Once the installation is complete, start the Flask server:
+
+```cmd
+python app6.py
+
+```
+
+After the engine initializes, the terminal will provide a local IP address (usually `[http://127.0.0.1:5000](http://127.0.0.1:5000)`). `Ctrl + Click` that link to open the AI Studio in your web browser!
