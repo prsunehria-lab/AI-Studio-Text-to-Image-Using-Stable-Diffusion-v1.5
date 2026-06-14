@@ -13,3 +13,7 @@ An ultra-optimized, local AI image generation studio powered by NVIDIA CUDA, Pyt
 *   **Automated Face Refiner (ADetailer Alternative):** Uses a local `MTCNN` face scanner to dynamically detect, crop, upsample, and re-blend facial features during the final generation stage to completely eradicate anatomical artifacts.
 *   **100% Air-Gapped / Offline Native:** Local model caching logic (`local_files_only=True`) and hard-saved client scripts ensure the studio remains completely operational without an internet connection.
 *   **VRAM Protection Layer:** Integrated UNet channel optimization, sliced/tiled VAE decoding, and shared pipeline memory configurations to eliminate Out-Of-Memory (OOM) errors.
+
+##Warning 
+Python Version 3.12 (Recommended)
+I am Not responsible for What content you Generate or Modify. But i give you full Access and Permission to Do what ever you want and modify this project
